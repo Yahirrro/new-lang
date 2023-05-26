@@ -1,0 +1,16 @@
+{
+  "name": "new-lang",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec ts-node index.ts"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "osc": "^2.4.4",
+    "serialport": "^11.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
